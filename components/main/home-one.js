@@ -135,7 +135,7 @@ export default function HomeOne() {
                     </div>
                     <div className="description wow pixFadeUp" data-wow-delay="0.7s">
                       <p>
-                        The bee's knees off his nut cack it's all gone to pot tinkety tonk old fruit blow off, tosser codswallop I chinwag. Brilliant bobby haggle James Bond tickety-boo horse play is spend a penny gutted mate absolutely.!
+                        The bees knees off his nut cack its all gone to pot tinkety tonk old fruit blow off, tosser codswallop I chinwag. Brilliant bobby haggle James Bond tickety-boo horse play is spend a penny gutted mate absolutely.!
                       </p>
                       <a href="#" className="pix-btn wow pixFadeUp" data-wow-delay="0.9s">Discover More</a>
                     </div>
@@ -244,7 +244,7 @@ export default function HomeOne() {
                         </div>
                         {/* /.single-bio-thumb */}
                         <div className="testimonial-content">
-                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, it's all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
                         </div>
                         {/* /.testimonial-content */}
                         <div className="bio-info">
@@ -262,7 +262,7 @@ export default function HomeOne() {
                         </div>
                         {/* /.single-bio-thumb */}
                         <div className="testimonial-content">
-                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, it's all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
                         </div>
                         {/* /.testimonial-content */}
                         <div className="bio-info">
@@ -280,7 +280,7 @@ export default function HomeOne() {
                         </div>
                         {/* /.single-bio-thumb */}
                         <div className="testimonial-content">
-                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, it's all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                          <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
                         </div>
                         {/* /.testimonial-content */}
                         <div className="bio-info">
@@ -341,7 +341,7 @@ export default function HomeOne() {
                           <div id="collapse001" className="collapse show" aria-labelledby="heading100" data-parent="#accordion" style={{}}>
                             <div className="card-body">
                               <p>
-                                Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+                                Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
                               </p>
                             </div>
                           </div>
@@ -357,7 +357,7 @@ export default function HomeOne() {
                           <div id="collapse100" className="collapse" aria-labelledby="heading200" data-parent="#accordion" style={{}}>
                             <div className="card-body">
                               <p>
-                                Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+                                Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
                               </p>
                             </div>
                           </div>
@@ -373,7 +373,7 @@ export default function HomeOne() {
                           <div id="collapse200" className="collapse" aria-labelledby="heading300" data-parent="#accordion" style={{}}>
                             <div className="card-body">
                               <p>
-                                Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+                                Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
                               </p>
                             </div>
                           </div>
@@ -389,7 +389,7 @@ export default function HomeOne() {
                           <div id="collapse300" className="collapse" aria-labelledby="heading400" data-parent="#accordion" style={{}}>
                             <div className="card-body">
                               <p>
-                                Easy peasy owt to do with me cras I don't want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
+                                Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
                               </p>
                             </div>
                           </div>
@@ -424,7 +424,7 @@ export default function HomeOne() {
                   love to work together
                 </h2>
                 <p>
-                  Spiffing good time nice one mush ummm I'm telling down the pub spend<br />
+                  Spiffing good time nice one mush ummm Im telling down the pub spend<br />
                   a penny only a quid such a fibber tomfoolery, on your bike.
                 </p>
                 <a href="signup" className="pix-btn btn-light">Free Sign Up</a>
@@ -446,7 +446,7 @@ export default function HomeOne() {
               
               <div className="site-info">
                 <div className="copyright">
-                  <p>© 2020 All Rights Reserved Design by <a href="http://www.pixelsigns.art" target="_blank">PixelSigns</a></p>
+                  <p>© 2020 All Rights Reserved Design by <a href="http://www.pixelsigns.art" rel='noreferrer' target="_blank">PixelSigns</a></p>
                 </div>
                 <ul className="site-info-menu">
                   <li><a href="#">Privacy &amp; Policy.</a></li>
