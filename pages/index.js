@@ -5,8 +5,9 @@ import Layout from '../components/layout/layout'
 import HomeOne from '../components/main/home-one'
 export default function Home() {
   return (
-  <>
-    <Layout/>
-    <HomeOne/></>
+    <>
+      <Layout />
+      <HomeOne />
+    </>
   )
 }
