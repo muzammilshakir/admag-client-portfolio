@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Head from 'next/head'
-import Script from 'next/Script';
+import script from 'next/script';
 function MyApp({ Component, pageProps }) {
 
   return (
@@ -37,22 +37,22 @@ function MyApp({ Component, pageProps }) {
       <main>
         <Component {...pageProps} />
         {/* <NextScript /> */}
-        <Script src="dependencies/jquery/jquery.min.js"></Script>
-        <Script src="dependencies/bootstrap/js/bootstrap.min.js"></Script>
-        <Script src="dependencies/swiper/js/swiper.min.js"></Script>
-        <Script src="dependencies/jquery.appear/jquery.appear.js"></Script>
-        <Script src="dependencies/wow/js/wow.min.js"></Script>
-        <Script src="dependencies/countUp.js/countUp.min.js"></Script>
-        <Script src="dependencies/isotope-layout/isotope.pkgd.min.js"></Script>
-        <Script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></Script>
-        <Script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></Script>
-        <Script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></Script>
-        <Script src="dependencies/gmap3/js/gmap3.min.js"></Script>
-        <Script type='text/javaScript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6'></Script>
+        <script src="dependencies/jquery/jquery.min.js"></script>
+        <script src="dependencies/bootstrap/js/bootstrap.min.js"></script>
+        <script src="dependencies/swiper/js/swiper.min.js"></script>
+        <script src="dependencies/jquery.appear/jquery.appear.js"></script>
+        <script src="dependencies/wow/js/wow.min.js"></script>
+        <script src="dependencies/countUp.js/countUp.min.js"></script>
+        <script src="dependencies/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="dependencies/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="dependencies/jquery.parallax-scroll/js/jquery.parallax-scroll.js"></script>
+        <script src="dependencies/magnific-popup/js/jquery.magnific-popup.min.js"></script>
+        <script src="dependencies/gmap3/js/gmap3.min.js"></script>
+        <script type='text/javaScript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDk2HrmqE4sWSei0XdKGbOMOHN3Mm2Bf-M&#038;ver=2.1.6'></script>
 
 
-        <Script src="assets/js/header.js"></Script>
-        <Script src="assets/js/app.js"></Script>
+        <script src="assets/js/header.js"></script>
+        <script src="assets/js/app.js"></script>
       </main>
 
     </>
