@@ -26,7 +26,7 @@ export default function Topbar() {
 
                         <div className="site-logo">
                             <a href="" className="logo">
-                                <img src="assets/img/logo.svg" alt="site logo" className="main-logo" />
+                                <img style={{padding:"10px"}} src="assets/img/logo.svg" alt="site logo" className="main-logo" />
                                 <img src="assets/img/logo.svg" alt="site logo" className="sticky-logo" />
                             </a>
                         </div>
@@ -86,7 +86,7 @@ export default function Topbar() {
                             </ul>
 
                             <div className="nav-right">
-                                <a href="signup" className="nav-btn">Free Sign Up</a>
+                                <a href="signup" className="nav-btn">Sign Up</a>
                             </div>
                         </div>
                     </nav>

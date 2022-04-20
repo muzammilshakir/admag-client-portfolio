@@ -42,8 +42,8 @@ export default function SignIn() {
                   <p>
                   </p>
                   <form action="#" className="singn-form">
-                    <input type="text" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
+                    <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}} type="text" placeholder="Email" />
+                    <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}} type="password" placeholder="Password" />
                     {/* <div className="forget-link">
                       <div className="condition">
                         <input className="styled-checkbox" id="styled-checkbox-1" type="checkbox" defaultValue="value1" />

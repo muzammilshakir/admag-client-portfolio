@@ -58,7 +58,7 @@ export default function SignUp() {
                                 console.log(res.data)
                                 setSnakMessage('Successfully registered')
                                 handleClick();
-                                window.location.href = "http://admin-panel.herokuapp.com/login"
+                                window.location.href = "https://admag-client.vercel.app"
 
                             })
                             .catch(err => {
@@ -120,20 +120,14 @@ export default function SignUp() {
                             <div className="col-lg-7">
                                 <div className="signin-from-wrapper">
                                     <div className="signin-from-inner">
-                                        <h2 className="title">Signup Now!</h2>
+                                        <h2 className="title">Sign Up Now!</h2>
                                         <br />
                                         <form className="singn-form" onSubmit={handleSubmit} >
-                                            <input type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)} required />
-                                            <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
-                                            <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
-                                            <input type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} required />
-                                            <div className="forget-link">
-                                                <div className="condition">
-                                                    <input className="styled-checkbox" id="styled-checkbox-1" type="checkbox" defaultValue="value1" />
-                                                    <label htmlFor="styled-checkbox-1" />
-                                                    <span>I wish to recieve newsletters, promotions and news from.</span>
-                                                </div>
-                                            </div>
+                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}} type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)} required />
+                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
+                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
+                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} required />
+                                        
                                             <button className="pix-btn" >Sign Up</button>
 
 
