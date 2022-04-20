@@ -344,8 +344,8 @@ section {
 	font-size: 15px;
 	color: #fff;
 	font-weight: 500;
-	-webkit-box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
-	        box-shadow: 0px 20px 30px 0px rgba(176, 70, 70, 0.3);
+	-webkit-box-shadow: 0px 20px 30px 0px rgba(224, 239, 250, 0.418);
+	        box-shadow: 0px 20px 30px 0px rgba(224, 239, 250, 0.418);
 }
 .pix-btn i {
 	font-size: 20px;
@@ -5858,7 +5858,7 @@ select {
 
 .featured-three {
 	padding: 116px 0 120px;
-	background: #fdf8f8;
+	background: #f2faff;
 	overflow: hidden;
 }
 .featured-three .scroll-circle {
@@ -7555,7 +7555,7 @@ select {
 }
 
 .testimonials {
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 116px 0 0;
 	overflow: hidden;
 }
@@ -7967,7 +7967,7 @@ select {
 }
 
 .testimonials-two-about {
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 116px 0 58px;
 	overflow: hidden;
 }
@@ -9319,7 +9319,7 @@ select {
 }
 
 .pricing-service {
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 116px 0 90px;
 }
 
@@ -10971,7 +10971,7 @@ Logo List
 ##  Page Banner
 --------------------------------------------------------------*/
 .page-banner {
-	background: #fdf8f8;
+	background: #f2faff;
 	text-align: center;
 	height: 550px;
 	display: -webkit-box;
@@ -11142,7 +11142,7 @@ Logo List
 	height: 690px;
 	position: relative;
 	overflow: hidden;
-	background: #fdf8f8;
+	background: #f2faff;
 }
 .page-banner-contact .circle {
 	position: absolute;
@@ -11183,7 +11183,7 @@ Logo List
 }
 
 .page-banner {
-	background: #fdf8f8;
+	background: #f2faff;
 	text-align: center;
 	height: 550px;
 	display: -webkit-box;
@@ -11353,7 +11353,7 @@ Logo List
 	height: 700px;
 	position: relative;
 	overflow: hidden;
-	background: #fdf8f8;
+	background: #f2faff;
 	z-index: 2;
 }
 .page-banner-contact .circle {
@@ -14900,7 +14900,7 @@ Download Two
 	line-height: 2.05;
 }
 .post.link-post .blog-content {
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 50px 50px;
 	border-bottom: 0;
 	position: relative;
@@ -15006,7 +15006,7 @@ Download Two
 
 .quote-post {
 	position: relative;
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 50px;
 	border-bottom: 0;
 	overflow: hidden;
@@ -15202,7 +15202,7 @@ Download Two
 }
 
 .pixsass_post_author_box {
-	background: #fdf8f8;
+	background: #f2faff;
 	padding: 40px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -15812,7 +15812,7 @@ Download Two
 	top: -33%;
 }
 .signin .animate-ball .ball {
-	background: #fff7f8;
+	background: #f2faff;
 }
 .signin .animate-ball .ball:nth-child(1) {
 	top: 22%;
@@ -16163,7 +16163,7 @@ Download Two
   ##  Footer
   --------------------------------------------------------------*/
 #footer {
-	background: #fdf8f8;
+	background: #f2faff;
 }
 #footer .footer-inner {
 	padding: 116px 0 62px;

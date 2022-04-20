@@ -134,12 +134,9 @@ export default function HomeOne() {
             </div>{/* /.row */}
           </div>{/* /.container */}
           <div className="shape-bg">
-            <img src="media/background/shape_bg.png" className="wow fadeInLeft" alt="shape-bg" />
+            {/* <img src="media/background/shape_bg.png" className="wow fadeInLeft" alt="shape-bg" /> */}
           </div>
-        </section>{/* /.editor-design */}
-        {/*===================================*/}
-        {/*=         Genera Informes         =*/}
-        {/*===================================*/}
+        </section>
         <section className="genera-informes">
           <div className="container">
             <div className="row">
@@ -169,17 +166,12 @@ export default function HomeOne() {
           <div className="shape-bg">
             <img src="media/background/shape.png" className="wow fadeInRight" alt="shape-bg" />
           </div>
-        </section>{/* /.genera-informes */}
-        {/*=================================*/}
-        {/*=         Revolutionize         =*/}
-        {/*=================================*/}
-
-
-        <section className="testimonials swiper-init">
+        </section>
+        <section className="testimonials swiper-init" style={{backgroundColor:"#0b70b3"}}>
           <div className="container">
             <div className="section-title text-center">
-              <h2 className="title wow pixFadeUp" data-wow-delay="0.3s">Our Team</h2>
-            </div>{/* /.section-title */}
+              <h2 className="title wow pixFadeUp" data-wow-delay="0.3s" style={{color:"black"}}>Our Team</h2>
+            </div>
             <div className="testimonial-wrapper wow pixFadeUp" data-wow-delay="0.5s">
               <div className="swiper-container" id="testimonial" data-speed={700} data-autoplay={5000}>
                 <div className="swiper-wrapper">
@@ -188,18 +180,14 @@ export default function HomeOne() {
                       <div className="single-bio-thumb">
                         <img src="media/testimonial/1.jpg" alt="testimonial" />
                       </div>
-                      {/* /.single-bio-thumb */}
                       <div className="testimonial-content">
                         <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
                       </div>
-                      {/* /.testimonial-content */}
                       <div className="bio-info">
                         <h3 className="name">Desmond Eagle</h3>
                         <span className="job">Web designer</span>
                       </div>
-                      {/* /.bio-info */}
                     </div>
-                    {/* /.testimonial */}
                   </div>
                   <div className="swiper-slide">
                     <div className="testimonial">
@@ -255,13 +243,8 @@ export default function HomeOne() {
           <div className="scroll-circle wow pixFadeDown">
             <img src="media/background/circle9.png" data-parallax="{&quot;y&quot; : 250}" alt="circle" />
           </div>
-        </section>{/* /.testimonial */}
-        {/*===========================*/}
-        {/*=         Pricing         =*/}
-        {/*===========================*/}
+        </section>
         <section className="pricing">
-          {/* z */}
-          {/* /.container */}
           <div className="faq-section">
             <div className="container">
               <div className="section-title text-center">
@@ -305,74 +288,28 @@ export default function HomeOne() {
                           </div>
                         </div>
                       </div>
-                      <div className="card">
-                        <div className="card-header" id="heading300">
-                          <h5>
-                            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse200" aria-expanded="false" aria-controls="collapse200">
-                              Where is the edit optioon on dashboard?
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapse200" className="collapse" aria-labelledby="heading300" data-parent="#accordion" style={{}}>
-                          <div className="card-body">
-                            <p>
-                              Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="card">
-                        <div className="card-header" id="heading400">
-                          <h5>
-                            <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse300" aria-expanded="false" aria-controls="collapse300">
-                              Is there any custome pricing system?
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapse300" className="collapse" aria-labelledby="heading400" data-parent="#accordion" style={{}}>
-                          <div className="card-body">
-                            <p>
-                              Easy peasy owt to do with me cras I dont want no agro what a load of rubbish starkers absolutely bladdered, old tinkety tonk old fruit so I said the full monty.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              {/* /.tabs-wrapper */}
-              {/* <div className="btn-container text-center mt-40 wow pixFadeUp">
-                  <a href="#" className="pix-btn btn-outline">Explore Forum</a>
-                </div> */}
-              {/* /.btn-container text-center */}
             </div>
-            {/* /.container */}
           </div>
-          {/* /.faq-section */}
           <div className="scroll-circle wow pixFadeLeft">
-            <img src="media/background/circle8.png" data-parallax="{&quot;y&quot; : 130}" alt="circle" />
+            {/* <img src="media/background/circle8.png" data-parallax="{&quot;y&quot; : 130}" alt="circle" /> */}
           </div>
         </section>
-        {/*=========================*/}
-        <footer id="footer">
+        <footer id="footer" >
           <div className="container">
 
             <div className="site-info">
               <div className="copyright">
                 <p>© 2022 All Rights Reserved ADMAG</p>
               </div>
-              {/* <ul className="site-info-menu">
-                <li><a href="#">Privacy &amp; Policy.</a></li>
-                <li><a href="#">Faq.</a></li>
-                <li><a href="#">Terms.</a></li>
-              </ul> */}
-            </div>{/* /.site-info */}
-          </div>{/* /.container */}
-        </footer>{/* /#footer */}
-      </div>{/* /#site */}
-      {/* Dependency Scripts */}
-      {/* Site Scripts */}
+             
+            </div>
+          </div>
+        </footer>
+      </div>
     </div>
   )
 }
