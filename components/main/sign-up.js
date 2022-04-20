@@ -8,6 +8,9 @@ export default function SignUp() {
     const [password, setPassword] = useState('')
     const [confirmPassword, setConfirmPassword] = useState('')
     const [snakMessage, setSnakMessage] = useState('')
+    const [code, setCode] = useState(1234)
+    const [verifyCode, setverifyCode] = useState(1234)
+    const [show, setShow] = useState(false)
     const [state, setState] = useState({
         open: false,
         vertical: 'top',
@@ -26,48 +29,57 @@ export default function SignUp() {
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-        // const data = {
-        //     name: username,
-        //     email: email,
-        //     message: "1234"
-        // }
-        // console.log(data)
         if (password === confirmPassword) {
-            // emailjs.send("service_wk08sb9", "template_7yta6qd", data, "KXYZ9ZykUcU8KiTFN")
-            //     .then((result) => {
-            //         console.log(result.text);
-            //     }, (error) => {
-            //         console.log(error.text);
-            //     });
             // check if email is already in use
-            axios.get(`${API_URL}/api/hirer/`)
-                .then(res => {
-                    const exist = res.data.find(user => user.email === email)
-                    if (exist !== undefined) {
-                        console.log(exist)
-                        setSnakMessage('Email already in use')
-                        handleClick()
-                    }
-                    else {
-                        axios.post(`${API_URL}/api/hirer`, {
-                            email: email,
-                            username: username,
-                            password: password
-                        })
-                            .then(res => {
-                                console.log(res.data)
-                                setSnakMessage('Successfully registered')
-                                handleClick();
-                                window.location.href = "https://admag-client.vercel.app"
+            if (show === false) {
+                axios.get(`${API_URL}/api/hirer/`)
+                    .then(res => {
+                        const exist = res.data.find(user => user.email === email)
+                        if (exist !== undefined) {
+                            console.log(exist)
+                            setSnakMessage('Email already in use')
+                            handleClick()
+                        }
+                        else {
+                            var val = Math.floor(1000 + Math.random() * 9000);
+                            setCode(val);
+                            const data = {
+                                name: username,
+                                email: email,
+                                message: "verification Code",
+                                code: val
+                            }
+                            emailjs.send("service_wk08sb9", "template_7yta6qd", data, "KXYZ9ZykUcU8KiTFN")
+                            setShow(true)
 
-                            })
-                            .catch(err => {
-                                setSnakMessage('Error signing up')
-                                handleClick();
-                                console.log(err)
-                            })
-                    }
+                        }
+                    })
+
+            }
+            else if (show === true && code === parseInt(verifyCode)) {
+                axios.post(`${API_URL}/api/hirer`, {
+                    email: email,
+                    username: username,
+                    password: password
                 })
+                    .then(res => {
+                        console.log(res.data)
+                        setSnakMessage('Successfully registered')
+                        handleClick();
+                        window.location.href = "https://admag-client.vercel.app"
+
+                    })
+                    .catch(err => {
+                        setSnakMessage('Error signing up')
+                        handleClick();
+                        console.log(err)
+                    })
+
+            }
+            else {
+                setSnakMessage('Verification code is incorrect')
+                handleClick()
+            }
 
         }
         else {
@@ -123,13 +135,19 @@ export default function SignUp() {
                                         <h2 className="title">Sign Up Now!</h2>
                                         <br />
                                         <form className="singn-form" onSubmit={handleSubmit} >
-                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}} type="text" placeholder="Username" onChange={(e) => setUsername(e.target.value)} required />
-                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
-                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
-                                            <input style={{background:"#eaf7ff",border:"1px solid #80cdfc"}}type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} required />
-                                        
-                                            <button className="pix-btn" >Sign Up</button>
+                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="text" placeholder="Name" onChange={(e) => setUsername(e.target.value)} required />
+                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
+                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
 
+                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} required />
+                                            {show ?
+                                                <>
+                                                    <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="number" placeholder="Code" onChange={(e) => setverifyCode(e.target.value)} required />
+                                                    <button className="pix-btn" >Sign Up</button>
+                                                </>
+                                                :
+                                                <button className="pix-btn" >Send Code</button>
+                                            }
 
                                             {/* <p>Already have an account? <a href="signin">Sign in</a> now.</p> */}
                                         </form>
