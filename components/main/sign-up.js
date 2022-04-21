@@ -51,6 +51,8 @@ export default function SignUp() {
                             }
                             emailjs.send("service_wk08sb9", "template_7yta6qd", data, "KXYZ9ZykUcU8KiTFN")
                             setShow(true)
+                            setSnakMessage("A verification is code sent to your email")
+                            handleClick()
 
                         }
                     })
@@ -136,12 +138,13 @@ export default function SignUp() {
                                         <br />
                                         <form className="singn-form" onSubmit={handleSubmit} >
                                             <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="text" placeholder="Name" onChange={(e) => setUsername(e.target.value)} required />
-                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
+                                            <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} required />
                                             <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} required />
 
                                             <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="password" placeholder="Confirm Password" onChange={(e) => setConfirmPassword(e.target.value)} required />
                                             {show ?
                                                 <>
+                                                    <p style={{color:"black",fontWeight:"bolder"}}>Enter the verification code.</p>
                                                     <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="number" placeholder="Code" onChange={(e) => setverifyCode(e.target.value)} required />
                                                     <button className="pix-btn" >Sign Up</button>
                                                 </>
