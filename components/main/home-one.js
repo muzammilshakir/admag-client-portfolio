@@ -109,7 +109,7 @@ export default function HomeOne() {
             <div className="row">
               <div className="editure-feature-image wow pixFadeRight">
                 <div className="image-one" data-parallax="{&quot;x&quot; : 30}">
-                  <img src="media/newImages/addlistWhite.png" style={{borderRadius:"2%"}} className="wow pixFadeRight" data-wow-delay="0.3s" alt="feature-image" />
+                  <img src="media/newImages/addlistWhite.PNG" style={{borderRadius:"2%"}} className="wow pixFadeRight" data-wow-delay="0.3s" alt="feature-image" />
                 </div>
                 {/* <div className="image-two">
                   <div className="image-two-inner" data-parallax="{&quot;x&quot; : -30}">
@@ -155,7 +155,7 @@ export default function HomeOne() {
               </div>{/* /.col-lg-6 */}
               <div className="informes-feature-image">
                 <div className="image-one" data-parallax="{&quot;y&quot; : 20}">
-                  <img src="media/newImages/addWhite.png" style={{borderRadius:"2%"}} className="wow pixFadeDown" alt="informes" />
+                  <img src="media/newImages/addWhite.PNG" style={{borderRadius:"2%"}} className="wow pixFadeDown" alt="informes" />
                 </div>
                 {/* <div className="image-two" data-parallax="{&quot;y&quot; : -20}">
                   <img src="media/newImages/saas-4-2.png" className=" mw-none wow pixFadeDown" data-wow-delay="0.3s" alt="informes" />
