@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Snackbar from '@mui/material/Snackbar';
 import emailjs from '@emailjs/browser';
 import axios from 'axios';
+import CircularProgress from '@mui/material/CircularProgress';
 export default function SignUp() {
     const [email, setEmail] = useState('')
     const [username, setUsername] = useState('')
@@ -93,7 +94,6 @@ export default function SignUp() {
     }
 
 
-
     return (
         <div>
             <Snackbar
@@ -137,6 +137,7 @@ export default function SignUp() {
                                 <div className="signin-from-wrapper">
                                     <div className="signin-from-inner">
                                         <h2 className="title">Sign Up Now!</h2>
+                                        
                                         <br />
                                         <form className="singn-form" onSubmit={handleSubmit} >
                                             <input style={{ background: "#eaf7ff", border: "1px solid #80cdfc" }} type="text" placeholder="Name" onChange={(e) => setUsername(e.target.value)} required />

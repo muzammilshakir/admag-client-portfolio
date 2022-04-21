@@ -303,7 +303,7 @@ export default function HomeOne() {
 
             <div className="site-info">
               <div className="copyright">
-                <p>© 2022 All Rights Reserved ADMAG</p>
+                <p>© 2022 All Rights Reserved Musketeers Tech&#174;</p>
               </div>
 
             </div>
