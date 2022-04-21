@@ -26,7 +26,7 @@ export default function Topbar() {
 
                         <div className="site-logo">
                             <a href="" className="logo">
-                                <img style={{padding:"10px"}} src="assets/img/logo.svg" alt="site logo" className="main-logo" />
+                                <img style={{padding:"10px"}} src="assets/img/logoW.svg" alt="site logo" className="main-logo" />
                                 <img src="assets/img/logo.svg" alt="site logo" className="sticky-logo" />
                             </a>
                         </div>
