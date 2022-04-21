@@ -178,7 +178,7 @@ export default function HomeOne() {
                   <div className="swiper-slide">
                     <div className="testimonial">
                       <div className="single-bio-thumb">
-                        <img src="media/testimonial/1.jpg" alt="testimonial" />
+                        <img src="media/testimonial/muz.jpg" alt="testimonial" />
                       </div>
                       <div className="testimonial-content">
                         <p> I am a highly motivated, self driven and a highly ambitious boy who just love the time spent on doing programming related tasks.I am quite meticulous in solving bugs and errors. I am a self learned person and I am really blessed to be in the era of Internet as my learning faculities are not limited to the currently available organic approach of contemporary learning.</p>
@@ -192,7 +192,7 @@ export default function HomeOne() {
                   <div className="swiper-slide">
                     <div className="testimonial">
                       <div className="single-bio-thumb">
-                        <img src="media/testimonial/1.jpg" alt="testimonial" />
+                        <img src="media/testimonial/abdu.jpeg" alt="testimonial" />
                       </div>
                       {/* /.single-bio-thumb */}
                       <div className="testimonial-content">
@@ -210,7 +210,7 @@ export default function HomeOne() {
                   <div className="swiper-slide">
                     <div className="testimonial">
                       <div className="single-bio-thumb">
-                        <img src="media/testimonial/1.jpg" alt="testimonial" />
+                        <img src="media/testimonial/zoh.jpeg" alt="testimonial" />
                       </div>
                       {/* /.single-bio-thumb */}
                       <div className="testimonial-content">
