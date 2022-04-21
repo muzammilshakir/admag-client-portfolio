@@ -167,10 +167,10 @@ export default function HomeOne() {
             <img src="media/background/shape.png" className="wow fadeInRight" alt="shape-bg" />
           </div>
         </section>
-        <section className="testimonials swiper-init" style={{backgroundColor:"#0b70b3"}}>
+        <section className="testimonials swiper-init" style={{ backgroundColor: "#0b70b3" }}>
           <div className="container">
             <div className="section-title text-center">
-              <h2 className="title wow pixFadeUp" data-wow-delay="0.3s" style={{color:"black"}}>Our Team</h2>
+              <h2 className="title wow pixFadeUp" data-wow-delay="0.3s" style={{ color: "black" }}>Our Team</h2>
             </div>
             <div className="testimonial-wrapper wow pixFadeUp" data-wow-delay="0.5s">
               <div className="swiper-container" id="testimonial" data-speed={700} data-autoplay={5000}>
@@ -181,11 +181,11 @@ export default function HomeOne() {
                         <img src="media/testimonial/1.jpg" alt="testimonial" />
                       </div>
                       <div className="testimonial-content">
-                        <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                        <p> I am a highly motivated, self driven and a highly ambitious boy who just love the time spent on doing programming related tasks.I am quite meticulous in solving bugs and errors. I am a self learned person and I am really blessed to be in the era of Internet as my learning faculities are not limited to the currently available organic approach of contemporary learning.</p>
                       </div>
                       <div className="bio-info">
-                        <h3 className="name">Desmond Eagle</h3>
-                        <span className="job">Web designer</span>
+                        <h3 className="name">Muzammil Shakir</h3>
+                        <span className="job">Full Stack Engineer</span>
                       </div>
                     </div>
                   </div>
@@ -196,12 +196,12 @@ export default function HomeOne() {
                       </div>
                       {/* /.single-bio-thumb */}
                       <div className="testimonial-content">
-                        <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                        <p>I am very upfront person who remains honest in his dealings.I am very keen in active learning I have a special interest in web technology stack.I owe a great deal of gratitude to my alma mater as it provided me the opportunity to become more pressure-resistant, a good problem solver and a better communicator.</p>
                       </div>
                       {/* /.testimonial-content */}
                       <div className="bio-info">
-                        <h3 className="name">Desmond Eagle</h3>
-                        <span className="job">Web designer</span>
+                        <h3 className="name">Abdul Waheed</h3>
+                        <span className="job">Full Stack Engineer</span>
                       </div>
                       {/* /.bio-info */}
                     </div>
@@ -214,12 +214,12 @@ export default function HomeOne() {
                       </div>
                       {/* /.single-bio-thumb */}
                       <div className="testimonial-content">
-                        <p>Tosser nancy boy super tickety-boo lemon squeezy easy peasy quaint, hunky-dory baking cakes pear shaped butty do one, its all gone to pot chinwag I cuppa Eaton. Porkies amongst cockup absolutely bladdered cobblers.!</p>
+                        <p>I am a very ambitious person who sees himself in a leadership role in the technology domain in the years to come. I am very keen in doing the projrct manamgement related tasks as it allows me the opportunity to interact with diverse people with different skills and backgrounds. Every human has a story to tell and to learn from. </p>
                       </div>
                       {/* /.testimonial-content */}
                       <div className="bio-info">
-                        <h3 className="name">Desmond Eagle</h3>
-                        <span className="job">Web designer</span>
+                        <h3 className="name">Zohaib Khalid</h3>
+                        <span className="job">Project Manager</span>
                       </div>
                       {/* /.bio-info */}
                     </div>
@@ -270,7 +270,7 @@ export default function HomeOne() {
                         <div id="collapse001" className="collapse show" aria-labelledby="heading100" data-parent="#accordion" style={{}}>
                           <div className="card-body">
                             <p>
-                            On the Home Screen, there is a Free Sign Up button on top right side of screen. Click it and a sign up form will be open.                            </p>
+                              On the Home Screen, there is a Free Sign Up button on top right side of screen. Click it and a sign up form will be open.                            </p>
                           </div>
                         </div>
                       </div>
@@ -278,13 +278,13 @@ export default function HomeOne() {
                         <div className="card-header" id="heading200">
                           <h5>
                             <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse100" aria-expanded="true" aria-controls="collapse100">
-                            How to book a billboard for advertisement?                            </button>
+                              How to book a billboard for advertisement?                            </button>
                           </h5>
                         </div>
                         <div id="collapse100" className="collapse" aria-labelledby="heading200" data-parent="#accordion" style={{}}>
                           <div className="card-body">
                             <p>
-                            Login to your account, click View adverstiment on the top right, press Add button. It will open up advertisement booking form. Choose the billboard, upload a picture or video, schedule a time and press enter.                            </p>
+                              Login to your account, click View adverstiment on the top right, press Add button. It will open up advertisement booking form. Choose the billboard, upload a picture or video, schedule a time and press enter.                            </p>
                           </div>
                         </div>
                       </div>
@@ -305,7 +305,7 @@ export default function HomeOne() {
               <div className="copyright">
                 <p>© 2022 All Rights Reserved ADMAG</p>
               </div>
-             
+
             </div>
           </div>
         </footer>
