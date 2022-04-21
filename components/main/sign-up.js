@@ -41,6 +41,8 @@ export default function SignUp() {
                             handleClick()
                         }
                         else {
+                            setSnakMessage("Sending email")
+                            handleClick()
                             var val = Math.floor(1000 + Math.random() * 9000);
                             setCode(val);
                             const data = {
