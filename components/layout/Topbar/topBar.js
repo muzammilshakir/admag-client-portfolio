@@ -88,6 +88,9 @@ export default function Topbar() {
                             <div className="nav-right">
                                 <a href="signup" className="nav-btn">Sign Up</a>
                             </div>
+                            <div className="nav-right">
+                                <a href="https://admag-client.vercel.app" className="nav-btn">Sign In</a>
+                            </div>
                         </div>
                     </nav>
                 </div>
